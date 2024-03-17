@@ -366,4 +366,66 @@
                 android:textColor="#000000"/>
         </LinearLayout>
 
+         <LinearLayout
+            android:id="@+id/Layout13"
+            android:layout_width="409dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/Layout12"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+             <EditText
+                 android:id="@+id/editText"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:hint="Write text..."/>
+
+         </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Layout14"
+            android:layout_width="409dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/Layout13"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/SaveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#D3D3D3"
+                android:radius="0dp"
+                android:text="Save"
+                android:textColor="#000000"
+                android:onClick="saveToFile"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/SearchBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#D3D3D3"
+                android:radius="0dp"
+                android:text="Search"
+                android:textColor="#000000"
+                android:onClick="searchFile"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
 </RelativeLayout>
